@@ -92,7 +92,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'editorHoverWidget.border': p.floating.bg,
 			'editorHoverWidget.foreground': p.editor.fg,
 			'editorHoverWidget.statusBarBackground': p.floating.bg,
-			'editorInlayHint.foreground': new Color('#686d81'),
+			'editorInlayHint.foreground': new Color('#686d81').toGray(),
 			'editorInlayHint.background': p.editor.bg,
 			'editorIndentGuide.activeBackground1': p.editor.whitespace.fg,
 			'editorIndentGuide.background1': p.editor.whitespace.fg.withAlpha(0.25),

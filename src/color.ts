@@ -60,6 +60,17 @@ export class Color {
 		return new Color(hex);
 	}
 
+	public toGray(): Color {
+		const c = Chroma(this.hex_);
+		const alpha = c.alpha();
+		const [L] = c.oklab();
+		const gray = Chroma.oklab(L, 0, 0);
+		if (alpha < 1) {
+			return new Color(gray.alpha(alpha).hex());
+		}
+		return new Color(gray.hex());
+	}
+
 	static mix(c1: Color, c2: Color, weight: number): Color {
 		const rgbComps1 = Chroma(c1.hex()).rgb();
 		const rgbComps2 = Chroma(c2.hex()).rgb();
@@ -73,4 +84,22 @@ export class Color {
 		).hex();
 		return new Color(hex);
 	}
+}
+
+export function grayscalePalette<T>(obj: T, skipKeys?: ReadonlySet<string>): T {
+	if (obj instanceof Color) {
+		return obj.toGray() as unknown as T;
+	}
+	if (obj === null || typeof obj !== 'object') {
+		return obj;
+	}
+	const result: Record<string, unknown> = {};
+	for (const [key, value] of Object.entries(obj as Record<string, unknown>)) {
+		if (skipKeys?.has(key)) {
+			result[key] = value;
+		} else {
+			result[key] = grayscalePalette(value);
+		}
+	}
+	return result as T;
 }

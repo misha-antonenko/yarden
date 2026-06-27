@@ -13,7 +13,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 		p.colors.blue.withAlpha(0.3);
 	t.colors['sideBarSectionHeader.background'] = p.titleBar.active.bg;
 	t.colors['menu.background'] = p.editor.bg;
-	t.colors['editorInlayHint.foreground'] = new Color('#87805b');
+	t.colors['editorInlayHint.foreground'] = new Color('#87805b').toGray();
 	t.colors['editorInlayHint.background'] = p.editor.bg;
 
 	return t;
