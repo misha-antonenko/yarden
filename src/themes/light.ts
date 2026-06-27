@@ -7,7 +7,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 	const p = palette;
 	const t = Dark.create(p);
 
-	t.name = 'Iceberg Light';
+	t.name = 'Yarden Light';
 	t.colors['editor.wordHighlightBackground'] = p.colors.blue.withAlpha(0.15);
 	t.colors['editor.wordHighlightStrongBackground'] =
 		p.colors.blue.withAlpha(0.3);

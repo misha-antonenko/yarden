@@ -6,7 +6,7 @@ import {VscodeTheme} from '../types/vscode-theme';
 export function create(palette: VscodePalette): VscodeTheme {
 	const p = palette;
 	return {
-		name: 'Iceberg',
+		name: 'Yarden',
 		colors: {
 			'activityBar.background': p.editor.bg,
 			'activityBar.foreground': p.editor.fg,

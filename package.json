@@ -1,11 +1,10 @@
 {
-	"name": "iceberg-theme",
-	"displayName": "Iceberg Theme",
+	"name": "yarden-theme",
+	"displayName": "Yarden Theme",
 	"description": "Bluish color theme",
 	"version": "2.0.6",
 	"publisher": "cocopon",
 	"license": "MIT",
-	"homepage": "https://cocopon.github.io/iceberg.vim/",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/cocopon/vscode-iceberg-theme.git"
@@ -24,14 +23,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Iceberg",
+				"label": "Yarden",
 				"uiTheme": "vs-dark",
-				"path": "./themes/iceberg.color-theme.json"
+				"path": "./themes/yarden.color-theme.json"
 			},
 			{
-				"label": "Iceberg Light",
+				"label": "Yarden Light",
 				"uiTheme": "vs",
-				"path": "./themes/iceberg-light.color-theme.json"
+				"path": "./themes/yarden-light.color-theme.json"
 			}
 		]
 	},
