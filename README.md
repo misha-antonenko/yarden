@@ -2,7 +2,7 @@
 
 Yarden is a monochrome stone-colored theme with minimal highlighting.
 
-Based on [Iceberg](https://cocopon.github.io/iceberg.vim/).
+Based on [Iceberg](https://github.com/cocopon/vscode-iceberg-theme).
 
 
 # Building your own Yarden
