@@ -1,13 +1,13 @@
 {
 	"name": "yarden-theme",
 	"displayName": "Yarden Theme",
-	"description": "Bluish color theme",
-	"version": "2.0.6",
-	"publisher": "cocopon",
+	"description": "Monochrome stone-colored theme with minimal highlighting",
+	"version": "1.0.0",
+	"publisher": "misha-antonenko",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/cocopon/vscode-iceberg-theme.git"
+		"url": "https://github.com/misha-antonenko/yarden-vscode.git"
 	},
 	"engines": {
 		"vscode": "^1.11.0"
