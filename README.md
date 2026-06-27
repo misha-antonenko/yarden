@@ -15,3 +15,11 @@ Based on [Iceberg](https://cocopon.github.io/iceberg.vim/).
    ```
    % npm run build
    ```
+
+
+# Why another theme
+
+At some point I simply got a persistent itch about existing themes being either too colorful for no
+good reason or having issues with contrast (which is contextually too large or too small). The great
+Iceberg theme has little issues with contrast, but it chooses to highlight more that I would like an
+editor to.
