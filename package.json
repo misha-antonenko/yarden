@@ -3,7 +3,7 @@
 	"displayName": "Yarden Theme",
 	"description": "Monochrome stone-colored theme with minimal highlighting",
 	"version": "1.0.0",
-	"publisher": "misha-antonenko",
+	"publisher": "mshntnnk",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
@@ -40,7 +40,6 @@
 		"lint": "eslint --config src/.eslintrc.js --ext .ts 'src/**/*.ts'",
 		"watch": "onchange --initial --kill \"src/**/*.ts\" -- npm run build"
 	},
-	"private": true,
 	"devDependencies": {
 		"@types/chroma-js": "^2.1.2",
 		"@types/node": "^14.14.14",

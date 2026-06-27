@@ -1,0 +1,13 @@
+.git/
+.gitattributes
+.gitignore
+.npmrc
+.prettierrc.js
+.vscode/
+.claude/
+node_modules/
+src/
+tmp/
+*.log
+*.tgz
+*.vsix
