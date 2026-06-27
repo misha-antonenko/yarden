@@ -7,7 +7,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/misha-antonenko/yarden-vscode.git"
+		"url": "https://github.com/misha-antonenko/yarden.git"
 	},
 	"engines": {
 		"vscode": "^1.11.0"
