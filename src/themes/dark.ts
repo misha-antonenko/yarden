@@ -1,5 +1,6 @@
 import {Color} from '../color';
 import {VscodePalette} from '../types/vscode-palette';
+
 import {VscodeTheme} from '../types/vscode-theme';
 
 export function create(palette: VscodePalette): VscodeTheme {
@@ -91,6 +92,8 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'editorHoverWidget.border': p.floating.bg,
 			'editorHoverWidget.foreground': p.editor.fg,
 			'editorHoverWidget.statusBarBackground': p.floating.bg,
+			'editorInlayHint.foreground': new Color('#686d81'),
+			'editorInlayHint.background': p.editor.bg,
 			'editorIndentGuide.activeBackground1': p.editor.whitespace.fg,
 			'editorIndentGuide.background1': p.editor.whitespace.fg.withAlpha(0.25),
 			'editorLightBulb.foreground': p.colors.orange,
@@ -144,7 +147,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			'list.focusForeground': p.list.focus.fg,
 			'list.hoverBackground': p.list.hover.bg,
 			'list.warningForeground': p.colors.orange,
-			'menu.background': p.floating.bg,
+			'menu.background': p.editor.bg,
 			'menu.foreground': p.editor.fg,
 			'menu.selectionBackground': p.floating.list.selection.bg,
 			'menu.selectionForeground': p.floating.list.selection.fg,

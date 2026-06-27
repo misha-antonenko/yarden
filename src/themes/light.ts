@@ -1,3 +1,4 @@
+import {Color} from '../color';
 import {VscodePalette} from '../types/vscode-palette';
 import {VscodeTheme} from '../types/vscode-theme';
 import * as Dark from './dark';
@@ -11,6 +12,9 @@ export function create(palette: VscodePalette): VscodeTheme {
 	t.colors['editor.wordHighlightStrongBackground'] =
 		p.colors.blue.withAlpha(0.3);
 	t.colors['sideBarSectionHeader.background'] = p.titleBar.active.bg;
+	t.colors['menu.background'] = p.editor.bg;
+	t.colors['editorInlayHint.foreground'] = new Color('#87805b');
+	t.colors['editorInlayHint.background'] = p.editor.bg;
 
 	return t;
 }
