@@ -1,6 +1,8 @@
 # Yarden for Visual Studio Code
 
-Yarden is a bluish color theme for Visual Studio Code, based on [Iceberg](https://cocopon.github.io/iceberg.vim/).
+Yarden is a monochrome stone-colored theme with minimal highlighting.
+
+Based on [Iceberg](https://cocopon.github.io/iceberg.vim/).
 
 
 # Building your own Yarden
