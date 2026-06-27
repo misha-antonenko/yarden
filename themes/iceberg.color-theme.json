@@ -262,8 +262,9 @@
 		},
 		{
 			"scope": [
-				"constant",
-				"support.constant"
+				"constant.numeric",
+				"constant.language",
+				"constant.character"
 			],
 			"settings": {
 				"foreground": "#a093c7"
@@ -272,7 +273,7 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#a093c7"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
@@ -365,11 +366,7 @@
 			}
 		},
 		{
-			"scope": [
-				"entity.name.function.method",
-				"markup.heading",
-				"meta.definition.method"
-			],
+			"scope": "markup.heading",
 			"settings": {
 				"foreground": "#e2a478"
 			}
@@ -377,13 +374,13 @@
 		{
 			"scope": "meta.object-literal.key",
 			"settings": {
-				"foreground": "#84a0c6"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
 			"scope": "meta.tag.attributes",
 			"settings": {
-				"foreground": "#a093c7"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
@@ -395,13 +392,13 @@
 		{
 			"scope": "meta.type.annotation",
 			"settings": {
-				"foreground": "#b4be82"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
 			"scope": "punctuation.definition.template-expression",
 			"settings": {
-				"foreground": "#b4be82"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
@@ -437,19 +434,19 @@
 		{
 			"scope": "support",
 			"settings": {
-				"foreground": "#84a0c6"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
 			"scope": "support.type.property-name",
 			"settings": {
-				"foreground": "#84a0c6"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
 			"scope": "variable.language.this",
 			"settings": {
-				"foreground": "#b4be82"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
@@ -491,7 +488,7 @@
 		{
 			"scope": "support.type.class.flowtype",
 			"settings": {
-				"foreground": "#b4be82"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
@@ -533,18 +530,32 @@
 		{
 			"scope": "variable.interpolation.scss",
 			"settings": {
-				"foreground": "#b4be82"
+				"foreground": "#c6c8d1"
 			}
 		},
 		{
 			"scope": "variable.scss",
 			"settings": {
-				"foreground": "#89b8c2"
+				"foreground": "#c6c8d1"
 			}
 		}
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"variable": "#c6c8d1"
+		"class": "#c6c8d1",
+		"decorator": "#c6c8d1",
+		"enum": "#c6c8d1",
+		"enumMember": "#c6c8d1",
+		"function": "#c6c8d1",
+		"interface": "#c6c8d1",
+		"method": "#c6c8d1",
+		"namespace": "#c6c8d1",
+		"parameter": "#c6c8d1",
+		"property": "#c6c8d1",
+		"struct": "#c6c8d1",
+		"type": "#c6c8d1",
+		"typeParameter": "#c6c8d1",
+		"variable": "#c6c8d1",
+		"*.defaultLibrary": "#c6c8d1"
 	}
 }

@@ -272,7 +272,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 				},
 			},
 			{
-				scope: ['constant', 'support.constant'],
+				scope: ['constant.numeric', 'constant.language', 'constant.character'],
 				settings: {
 					foreground: p.colors.purple,
 				},
@@ -280,7 +280,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			{
 				scope: 'entity.other.attribute-name',
 				settings: {
-					foreground: p.colors.purple,
+					foreground: p.editor.fg,
 				},
 			},
 			{
@@ -373,11 +373,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 				},
 			},
 			{
-				scope: [
-					'entity.name.function.method',
-					'markup.heading',
-					'meta.definition.method',
-				],
+				scope: 'markup.heading',
 				settings: {
 					foreground: p.colors.orange,
 				},
@@ -385,13 +381,13 @@ export function create(palette: VscodePalette): VscodeTheme {
 			{
 				scope: 'meta.object-literal.key',
 				settings: {
-					foreground: p.colors.blue,
+					foreground: p.editor.fg,
 				},
 			},
 			{
 				scope: 'meta.tag.attributes',
 				settings: {
-					foreground: p.colors.purple,
+					foreground: p.editor.fg,
 				},
 			},
 			{
@@ -403,13 +399,13 @@ export function create(palette: VscodePalette): VscodeTheme {
 			{
 				scope: 'meta.type.annotation',
 				settings: {
-					foreground: p.colors.green,
+					foreground: p.editor.fg,
 				},
 			},
 			{
 				scope: 'punctuation.definition.template-expression',
 				settings: {
-					foreground: p.colors.green,
+					foreground: p.editor.fg,
 				},
 			},
 			{
@@ -445,19 +441,19 @@ export function create(palette: VscodePalette): VscodeTheme {
 			{
 				scope: 'support',
 				settings: {
-					foreground: p.colors.blue,
+					foreground: p.editor.fg,
 				},
 			},
 			{
 				scope: 'support.type.property-name',
 				settings: {
-					foreground: p.colors.blue,
+					foreground: p.editor.fg,
 				},
 			},
 			{
 				scope: 'variable.language.this',
 				settings: {
-					foreground: p.colors.green,
+					foreground: p.editor.fg,
 				},
 			},
 			{
@@ -500,7 +496,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			{
 				scope: 'support.type.class.flowtype',
 				settings: {
-					foreground: p.colors.green,
+					foreground: p.editor.fg,
 				},
 			},
 			{
@@ -542,19 +538,33 @@ export function create(palette: VscodePalette): VscodeTheme {
 			{
 				scope: 'variable.interpolation.scss',
 				settings: {
-					foreground: p.colors.green,
+					foreground: p.editor.fg,
 				},
 			},
 			{
 				scope: 'variable.scss',
 				settings: {
-					foreground: p.colors.lblue,
+					foreground: p.editor.fg,
 				},
 			},
 		],
 		semanticHighlighting: true,
 		semanticTokenColors: {
+			class: p.editor.fg,
+			decorator: p.editor.fg,
+			enum: p.editor.fg,
+			enumMember: p.editor.fg,
+			function: p.editor.fg,
+			interface: p.editor.fg,
+			method: p.editor.fg,
+			namespace: p.editor.fg,
+			parameter: p.editor.fg,
+			property: p.editor.fg,
+			struct: p.editor.fg,
+			type: p.editor.fg,
+			typeParameter: p.editor.fg,
 			variable: p.editor.fg,
+			'*.defaultLibrary': p.editor.fg,
 		},
 	};
 }

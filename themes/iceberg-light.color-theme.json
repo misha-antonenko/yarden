@@ -262,8 +262,9 @@
 		},
 		{
 			"scope": [
-				"constant",
-				"support.constant"
+				"constant.numeric",
+				"constant.language",
+				"constant.character"
 			],
 			"settings": {
 				"foreground": "#7759b4"
@@ -272,7 +273,7 @@
 		{
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#7759b4"
+				"foreground": "#33374c"
 			}
 		},
 		{
@@ -365,11 +366,7 @@
 			}
 		},
 		{
-			"scope": [
-				"entity.name.function.method",
-				"markup.heading",
-				"meta.definition.method"
-			],
+			"scope": "markup.heading",
 			"settings": {
 				"foreground": "#c57339"
 			}
@@ -377,13 +374,13 @@
 		{
 			"scope": "meta.object-literal.key",
 			"settings": {
-				"foreground": "#2d539e"
+				"foreground": "#33374c"
 			}
 		},
 		{
 			"scope": "meta.tag.attributes",
 			"settings": {
-				"foreground": "#7759b4"
+				"foreground": "#33374c"
 			}
 		},
 		{
@@ -395,13 +392,13 @@
 		{
 			"scope": "meta.type.annotation",
 			"settings": {
-				"foreground": "#668e3d"
+				"foreground": "#33374c"
 			}
 		},
 		{
 			"scope": "punctuation.definition.template-expression",
 			"settings": {
-				"foreground": "#668e3d"
+				"foreground": "#33374c"
 			}
 		},
 		{
@@ -437,19 +434,19 @@
 		{
 			"scope": "support",
 			"settings": {
-				"foreground": "#2d539e"
+				"foreground": "#33374c"
 			}
 		},
 		{
 			"scope": "support.type.property-name",
 			"settings": {
-				"foreground": "#2d539e"
+				"foreground": "#33374c"
 			}
 		},
 		{
 			"scope": "variable.language.this",
 			"settings": {
-				"foreground": "#668e3d"
+				"foreground": "#33374c"
 			}
 		},
 		{
@@ -491,7 +488,7 @@
 		{
 			"scope": "support.type.class.flowtype",
 			"settings": {
-				"foreground": "#668e3d"
+				"foreground": "#33374c"
 			}
 		},
 		{
@@ -533,18 +530,32 @@
 		{
 			"scope": "variable.interpolation.scss",
 			"settings": {
-				"foreground": "#668e3d"
+				"foreground": "#33374c"
 			}
 		},
 		{
 			"scope": "variable.scss",
 			"settings": {
-				"foreground": "#3f83a6"
+				"foreground": "#33374c"
 			}
 		}
 	],
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"variable": "#33374c"
+		"class": "#33374c",
+		"decorator": "#33374c",
+		"enum": "#33374c",
+		"enumMember": "#33374c",
+		"function": "#33374c",
+		"interface": "#33374c",
+		"method": "#33374c",
+		"namespace": "#33374c",
+		"parameter": "#33374c",
+		"property": "#33374c",
+		"struct": "#33374c",
+		"type": "#33374c",
+		"typeParameter": "#33374c",
+		"variable": "#33374c",
+		"*.defaultLibrary": "#33374c"
 	}
 }
