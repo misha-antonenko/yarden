@@ -310,35 +310,9 @@ export function create(palette: VscodePalette): VscodeTheme {
 			{
 				scope: [
 					'keyword',
-					'keyword.operator.expression',
-					'keyword.operator.new',
 				],
 				settings: {
 					foreground: p.colors.blue,
-				},
-			},
-			{
-				scope: 'keyword.control.at-rule, keyword.control.content',
-				settings: {
-					foreground: p.colors.green,
-				},
-			},
-			{
-				scope: 'keyword.function',
-				settings: {
-					foreground: p.colors.blue,
-				},
-			},
-			{
-				scope: 'keyword.operator',
-				settings: {
-					foreground: p.editor.fg,
-				},
-			},
-			{
-				scope: 'keyword.other.unit',
-				settings: {
-					foreground: p.colors.purple,
 				},
 			},
 			{
@@ -403,19 +377,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 				},
 			},
 			{
-				scope: 'punctuation.definition.template-expression',
-				settings: {
-					foreground: p.editor.fg,
-				},
-			},
-			{
-				scope: 'punctuation.definition.block',
-				settings: {
-					foreground: p.editor.fg,
-				},
-			},
-			{
-				scope: 'punctuation.definition.tag',
+				scope: 'punctuation',
 				settings: {
 					foreground: p.colors.blue,
 				},
@@ -500,12 +462,6 @@ export function create(palette: VscodePalette): VscodeTheme {
 				},
 			},
 			{
-				scope: 'punctuation.definition.block.tag.jsdoc',
-				settings: {
-					foreground: p.colors.green,
-				},
-			},
-			{
 				scope: 'storage.type.class.jsdoc',
 				settings: {
 					foreground: p.colors.green,
@@ -530,12 +486,6 @@ export function create(palette: VscodePalette): VscodeTheme {
 				},
 			},
 			{
-				scope: 'keyword.other.important.scss',
-				settings: {
-					foreground: p.colors.orange,
-				},
-			},
-			{
 				scope: 'variable.interpolation.scss',
 				settings: {
 					foreground: p.editor.fg,
@@ -550,6 +500,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 		],
 		semanticHighlighting: true,
 		semanticTokenColors: {
+			keyword: p.colors.blue,
 			class: p.editor.fg,
 			decorator: p.editor.fg,
 			enum: p.editor.fg,
