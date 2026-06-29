@@ -388,6 +388,18 @@
 			}
 		},
 		{
+			"scope": "storage.type.class.jsdoc",
+			"settings": {
+				"foreground": "#b7b7b7"
+			}
+		},
+		{
+			"scope": "storage.type.primitive",
+			"settings": {
+				"foreground": "#c8c8c8"
+			}
+		},
+		{
 			"scope": "string",
 			"settings": {
 				"foreground": "#afafaf"
@@ -451,12 +463,6 @@
 			"scope": "support.type.class.flowtype",
 			"settings": {
 				"foreground": "#c8c8c8"
-			}
-		},
-		{
-			"scope": "storage.type.class.jsdoc",
-			"settings": {
-				"foreground": "#b7b7b7"
 			}
 		},
 		{

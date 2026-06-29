@@ -395,6 +395,18 @@ export function create(palette: VscodePalette): VscodeTheme {
 				},
 			},
 			{
+				scope: 'storage.type.class.jsdoc',
+				settings: {
+					foreground: p.colors.green,
+				},
+			},
+			{
+				scope: 'storage.type.primitive',
+				settings: {
+					foreground: p.editor.fg,
+				},
+			},
+			{
 				scope: 'string',
 				settings: {
 					foreground: p.colors.lblue,
@@ -459,12 +471,6 @@ export function create(palette: VscodePalette): VscodeTheme {
 				scope: 'support.type.class.flowtype',
 				settings: {
 					foreground: p.editor.fg,
-				},
-			},
-			{
-				scope: 'storage.type.class.jsdoc',
-				settings: {
-					foreground: p.colors.green,
 				},
 			},
 			{
