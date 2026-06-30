@@ -1,4 +1,4 @@
-# Yarden for Visual Studio Code
+# Yarden /jaʁˈden/
 
 Yarden is a monochrome stone-colored theme with minimal highlighting.
 
