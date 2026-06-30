@@ -507,6 +507,7 @@
 		"type": "#c8c8c8",
 		"typeParameter": "#c8c8c8",
 		"variable": "#c8c8c8",
-		"*.defaultLibrary": "#c8c8c8"
+		"*.defaultLibrary": "#c8c8c8",
+		"*.deduced": "#9e9e9e"
 	}
 }

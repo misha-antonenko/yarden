@@ -516,6 +516,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			typeParameter: p.editor.fg,
 			variable: p.editor.fg,
 			'*.defaultLibrary': p.editor.fg,
+			'*.deduced': p.colors.blue,
 		},
 	};
 }
