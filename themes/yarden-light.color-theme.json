@@ -382,19 +382,13 @@
 			}
 		},
 		{
-			"scope": "storage.type.function",
-			"settings": {
-				"foreground": "#575757"
-			}
-		},
-		{
 			"scope": "storage.type.class.jsdoc",
 			"settings": {
 				"foreground": "#808080"
 			}
 		},
 		{
-			"scope": "storage.type.primitive",
+			"scope": "storage.type.primitive, storage.type.built-in",
 			"settings": {
 				"foreground": "#383838"
 			}

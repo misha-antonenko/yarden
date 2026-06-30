@@ -389,19 +389,13 @@ export function create(palette: VscodePalette): VscodeTheme {
 				},
 			},
 			{
-				scope: 'storage.type.function',
-				settings: {
-					foreground: p.colors.blue,
-				},
-			},
-			{
 				scope: 'storage.type.class.jsdoc',
 				settings: {
 					foreground: p.colors.green,
 				},
 			},
 			{
-				scope: 'storage.type.primitive',
+				scope: 'storage.type.primitive, storage.type.built-in',
 				settings: {
 					foreground: p.editor.fg,
 				},
