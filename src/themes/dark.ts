@@ -517,6 +517,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 			variable: p.editor.fg,
 			'*.defaultLibrary': p.editor.fg,
 			'*.deduced': p.colors.blue,
+			'*.declaration': {fontStyle: 'italic'},
 		},
 	};
 }

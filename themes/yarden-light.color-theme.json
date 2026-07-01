@@ -508,6 +508,9 @@
 		"typeParameter": "#383838",
 		"variable": "#383838",
 		"*.defaultLibrary": "#383838",
-		"*.deduced": "#575757"
+		"*.deduced": "#575757",
+		"*.declaration": {
+			"fontStyle": "italic"
+		}
 	}
 }

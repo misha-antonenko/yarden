@@ -2,6 +2,13 @@ import {Color} from '../color';
 
 type ThemeValue = string | Color;
 
+interface SemanticTokenStyle {
+	foreground?: ThemeValue;
+	fontStyle?: string;
+}
+
+type SemanticTokenValue = ThemeValue | SemanticTokenStyle;
+
 interface TokenColor {
 	scope: string | string[];
 	settings: {
@@ -267,7 +274,7 @@ export interface VscodeTheme {
 	};
 	semanticHighlighting: boolean;
 	semanticTokenColors: {
-		[key: string]: ThemeValue;
+		[key: string]: SemanticTokenValue;
 	};
 	tokenColors: TokenColor[];
 }
