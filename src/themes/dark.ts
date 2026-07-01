@@ -266,7 +266,7 @@ export function create(palette: VscodePalette): VscodeTheme {
 		},
 		tokenColors: [
 			{
-				scope: 'comment',
+				scope: 'comment, punctuation.definition.comment',
 				settings: {
 					foreground: p.tokens.comment,
 				},
